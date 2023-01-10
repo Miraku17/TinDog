@@ -13,17 +13,21 @@ body{
   z-index:  1;
 
 }
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+}
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     line-height: 1.5;
 }
-h2{
-font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
 h3{
+  font-size: 4rem;
+}
+
+/* headings */
+.big-heading{
   font-family: 'Montserrat', sans-serif;
 }
 p{
@@ -101,6 +105,10 @@ text-align: center;
 }
 /*Pricing Section*/
 
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
 
 #pricing
 {
@@ -112,9 +120,42 @@ text-align: center;
 .pricing-column{
   padding: 3% 2%;
 }
+
+/*cta*/
+
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+
+}
+
+/* footer */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+
 @media (max-width: 1028px){
 
   #title{
+    text-align: center;
+    padding: 7% 15%;
     text-align: center;
   }
   .dog-image{
